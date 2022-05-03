@@ -1,0 +1,164 @@
+* {
+    margin: 0px;
+    border: 0px;
+    /* width: 1500px; */
+}
+
+.s1 {
+    /* background-color: rebeccapurple; */
+    margin: auto;
+    width: 1000px;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif;
+ */
+    font-family: 'Tapestry', cursive;
+    font-size: 50px;
+    color: bisque;
+}
+
+.navbar {
+    background-color: rgb(10, 7, 7);
+    border-radius: 10px;
+    border: 4px solid black;
+    position: fixed;
+    width: 1800px;
+    top: 0px;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar ul li {
+    border: 1px solid rgb(19, 17, 17);
+    border-radius: 4px;
+    /* color: bisque; */
+    padding: 10px;
+    /* background-color: aqua; */
+    float: left;
+    list-style: none;
+}
+
+.navbar li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.navbar input {
+    padding: 4px;
+    border: solid black;
+    margin: 4px 4px;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    height: 840px;
+    /* justify-content: center; */
+    align-items: center;
+}
+table{
+    margin-top: 100px;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('/Media/final1.jpg') no-repeat center center/cover;
+    height: 1000px;
+    width: 100%;
+    z-index: -1;
+}
+
+#myportfolio {
+     display: flex;
+    font-style: italic;
+    background-color: black;
+    height: 1500px;
+}
+
+#myportfolio img {
+    height: 100px;
+    /* width: 60px; */
+    border: 2px solid;
+    border-radius: 50px;
+}
+
+#myportfolio h3 {
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+}
+
+table td {
+    font-weight: bold;
+    font-size: 20px;
+    width: 500px;
+    background-color: rgb(216, 212, 212);
+    border-collapse: separate;
+    /* This line */
+}
+
+#contact_me {
+    height: 400px;
+    background-color: black;
+    color: white;
+}
+
+.button h3 {
+    color: aliceblue;
+}
+
+a:hover {
+    background-color: rgb(116, 118, 238);
+    cursor: pointer;
+}
+#contact_me a{
+    border: 4px solid white;
+    color: aliceblue;
+    padding: 4px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.namec {
+    margin: 30px;
+}
+
+.emailc {
+    margin: 30px;
+}
+
+.passwordc {
+    margin: 30px;
+}
+
+.form {
+    height: 800px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.form label {
+    margin-right: 20px;
+}
+
+.form h3 {
+    margin-bottom: 50px;
+}
+#result{
+    height: 400px;
+    line-height: 2;
+    padding-bottom: 30px;
+    width: 800px;
+    background-color: white;
+    color: black;
+    margin: auto;
+}
+#sks{
+    padding: 10px;
+    line-height: 2;
+}

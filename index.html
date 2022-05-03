@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saikiran's website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="icon" href="Media/favicon.ico">
+    <style>
+        .namec {
+            margin: 30px;
+        }
+
+        .emailc {
+            margin: 30px;
+        }
+
+        .passwordc {
+            margin: 30px;
+        }
+
+        .form {
+            height: 800px;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        .form label {
+            margin-right: 20px;
+        }
+
+        .form h3 {
+            margin-bottom: 50px;
+        }
+
+        #result {
+            height: 400px;
+            line-height: 2;
+            padding-bottom: 30px;
+            width: 800px;
+            background-color: white;
+            color: black;
+            margin: auto;
+        }
+
+        #sks {
+            padding: 10px;
+            line-height: 2;
+        }
+
+        #home::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: url('Media/final1.jpg') no-repeat center center/cover;
+            height: 1000px;
+            width: 100%;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="JS/index.js"></script>
+    <div id="main">
+        <nav class="navbar">
+            <!-- <img src="images/logo1.png" alt=""> -->
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#myportfolio">My_Portfolio</a></li>
+                <li><a href="#contact_me">Contact me</a></li>
+                <li><a href="#form">Form</a></li>
+                <li> <a href="https://www.youtube.com/watch?v=TZZzIX7vUGc">external link</a></li>
+                <li><a href="index1.html">internal file-system link</a></li>
+            </ul>
+        </nav>
+    </div>
+    ,<br>
+    <br>
+
+    <section id="home">
+        <div class="s1">
+            <marquee behavior="scroll" direction="left">
+                <h3>Hello I'm Saikiran survi</h3>
+            </marquee>
+        </div>
+
+    </section>
+    <section id="myportfolio">
+        <!-- <h3>MY PORTFOLIO</h3> -->
+        <img src="Media/portfolio1.jpg" alt="my_image">
+        <div>
+            <center>
+                <table border="1">
+                    <div>
+                        <tr>
+                            <th class="tabl">TOPIC</th>
+                            <th class="tabl">DESCRIPTION</th>
+                        </tr>
+                        <tr>
+                            <td class="tabl">About me</td>
+                            <td class="tabl">
+                                <pre>hey! hai this is saikiran survi. Iam from hyderabad, telangana.
+                                    Iam currently a ug1 CSE student at IIIT-hyderabad.
+                                </pre>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tabl">my profile_image</td>
+                            <td><img src="Media/sai.jpg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td class="tabl">Education</td>
+                            <td class="tabl">
+                                <pre>
+                                    <ul class="tabl">
+                                        <li>currently pursuing B-tech CSE at IIIT-hyderabad</li>
+                                        <li>completed Pre-university course at Rajiv-Gandhi university of knowledge and technologies</li>
+                                        <li>completed secondary schooling at Telangana state Model school,choutuppal</li>
+                                    </ul>
+                                </pre>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tabl">Skills</td>
+                            <td id="sks" class="tabl">
+                                <ul class="tabl">
+                                    <li>
+                                        <pre>C              ★★★★★</pre>
+                                    </li>
+                                    <li>
+                                        <pre>C++            ★★★★★</pre>
+                                    </li>
+                                    <li>
+                                        <pre>python         ★★★★☆</pre>
+                                    </li>
+                                    <li>
+                                        <pre>Bash-scripting ★★★★☆</pre>
+                                    </li>
+                                    <li>
+                                        <pre>HTML           ★★★★★</pre>
+                                    </li>
+                                    <li>
+                                        <pre>CSS            ★★★☆☆</pre>
+                                    </li>
+                                    <li>
+                                        <pre>JavaScript     ★★☆☆☆</pre>
+                                    </li>
+                                    <li>
+                                        <pre>DataStructures ★★★★☆</pre>
+                                    </li>
+                                    <li>
+                                        <pre>Algorithms     ★★☆☆☆</pre>
+                                    </li>
+                                </ul>
+
+                            </td>
+                        </tr>
+                    </div>
+                </table>
+            </center>
+            <br>
+            <br>
+            <center>
+                <div class="button">
+                    <h3>custom backgound color settings</h3>
+                    <br>
+                    <button type="button" id="1" onclick="myFunction1()">black_color</button>
+                    <button type="button" id="2" onclick="myFunction2()">blue_color</button>
+                    <button type="button" id="3" onclick="myFunction3()">purple_color</button>
+                    <button type="button" id="4" onclick="myFunction4()">green_color</button>
+                    <button type="button" id="5" onclick="myFunction5()">orange_color</button>
+                    <br>
+                    <br>
+
+                </div>
+                <div class="links">
+                    <p>hello everyone</p>
+                    <a href="https://www.youtube.com/watch?v=TZZzIX7vUGc">external link</a><br>
+                    <br>
+                    <a href="index1.html">internal file-system link</a>
+                </div>
+        </div>
+        </center>
+
+    </section> -->
+
+
+
+
+
+
+
+    <div class="form">
+        <h3>Here is the data that you entered which is Retrieved from the local storage</h3>
+        <div id="result">
+
+        </div>
+        <h3>Kindly Enter Your Details Here</h3>
+        <form action="" id="form">
+            <div class="namec">
+                <label for="">Name</label>
+                <input type="text" name="yourname" id="name">
+            </div>
+            <div class="emailc">
+                <label for="">email</label>
+                <input type="email" name="youremail" id="email">
+            </div>
+            <div class="passwordc">
+                <label for="">password</label>
+                <input type="password" name="yourpassword" id="password">
+            </div>
+            <div class="label">
+                <input type="button" onclick="savedata()" value="submit">
+            </div>
+        </form>
+    </div>
+
+    <section id="contact_me">
+        <center>
+            <!-- <h3>contact me</h3> -->
+            <br>
+            <h4>mobile number : 8790XXXXXX</h4><br>
+            <h4>Email address : user.iiit.ac.in</h4><br>
+            <Pre>
+                Copyright © 2021, saikiran_survi web.com . All rights reserved
+    
+                Privacy policy | Disclosure 
+            </Pre>
+            <br>
+            <br>
+            <a href="#home">Home</a>
+
+        </center>
+    </section>
+
+
+</body>
+
+</html>

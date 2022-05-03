@@ -241,5 +241,36 @@
 
 
 </body>
+<script>
+    function savedata() {
+        var user = document.getElementById("name").value;
+        var newnode = document.createElement("div");
+        newnode.innerHTML = `<p>
+    username: ${user}
+    </p>`
+        document.getElementById("result").append(newnode);
+        localStorage.setItem("username", document.getElementById("result").innerHTML);
+        var em = document.getElementById("email").value;
+        var newnode = document.createElement("div");
+        newnode.innerHTML = `<p>
+    eamil: ${em}
+    </p>`
+        document.getElementById("result").append(newnode);
+        localStorage.setItem("username", document.getElementById("result").innerHTML);
+        var pwd = document.getElementById("password").value;
+        var newnode = document.createElement("div");
+        newnode.innerHTML = `<p>
+    password: ${pwd} <br> ...........................
+    </p>`
+        document.getElementById("result").append(newnode);
+        localStorage.setItem("username", document.getElementById("result").innerHTML);
+
+    }
+
+    function load_page() {
+        document.getElementById("result").innerHTML = window.localStorage.getItem("username");
+    }
+    load_page();
+</script>
 
 </html>
